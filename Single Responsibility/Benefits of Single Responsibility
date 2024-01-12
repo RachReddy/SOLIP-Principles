@@ -1,0 +1,22 @@
+BENEFITS OF SINGLE RESPONSIBILITY
+-------------------------------------
+
+1. CLARITY & SIMPLIFICATION :
+> Classes with a single responsibility are easier to understand and implement.
+> Simplifies code, reducing bugs and accelerating development.
+
+2. ERROR SPOTTING :
+> Facilitates quick identification of errors within a specific class.
+> Streamlines debugging by pinpointing the responsible code.
+
+3. SEPARATION OF CONCERNS :
+> Ensures each class has a distinct responsibility, promoting maintainability.
+> Facilitates clear separation of functionalities.
+
+4. CODE READABILITY
+> Enhances code readability by assigning a single responsibility to each class.
+> Reduces time spent searching for relevant code segments.
+
+5. TESTABILITY
+6. EFFICIENT CODE CHANGES
+7. CODE REUSABILITY
