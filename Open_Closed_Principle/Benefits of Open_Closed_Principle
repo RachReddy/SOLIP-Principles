@@ -1,0 +1,8 @@
+Open for extension : It means that the module’s behavior can be extended. When the requirements of the application change, you can extend the module with new behaviors that adapt to those changes.
+Closed for modification : You shouldn't refactor and modify the existing code for the module until bugs are detected. The source code has already passed the unit testing, so changing it can affect other existing functionalities.
+
+BENEFITS OF OPEN_CLOSED PRINCIPLE
+----------------------------------------------------
+1. Flexibility and Extensibility
+2. Reduced Risk of Bugs
+3. To add a new feature, we don’t change existing code so we don’t break existing features by introducing new bugs.
