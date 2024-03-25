@@ -17,3 +17,24 @@ This design doesn't adhere to SRP
 
 ![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/6372ccda-7bbf-490c-a2bb-aaceb6ee5411)
 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. *OPEN/CLOSED PRINCIPLE*
+   
+   "Classes should be open for extension but closed for modification"
+
+> Open for extension: It means that the module’s behavior can be extended. When the requirements of the application change, you can extend the module with new behaviors that adapt to those changes.
+
+> Closed for modification: You shouldn't refactor and modify the existing source code of a module as it has already passed the unit testing, so changing it can affect other existing functionalities.
+
+
+In doing so, BENEFITS OF OCP
+ a) Inheritance through interface helps achieve loose coupling between classes implementing that interface.
+ b) To add a new feature, we don’t change existing code so we don’t break existing features by introducing new bugs.
+
+Note: The one exception to the OCP rule is when fixing bugs in existing code. 
+
+
+   
