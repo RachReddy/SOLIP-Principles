@@ -1,6 +1,6 @@
 1. *SINGLE RESPONSIBILITY PRINCIPLE*
 
-   "A class should have one and only one reason to change, meaning that a class should have only one job."
+   "A class should have one and only one reason to change, or in other words, it should have only one job/responsibility."
 
 
 It's tempting to pack a class with a lot of functionality. However, the issue is that your class won't be conceptually cohesive, giving it several reasons to change. Reducing the number of reasons to modify a class is essential. If this job's specifications change, you only need to modify that specific class. This change is less likely to break the whole application since other classes continue to function as before. As a result, classes have become smaller, cleaner, and thus easier to maintain.
