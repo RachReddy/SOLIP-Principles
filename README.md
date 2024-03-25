@@ -31,10 +31,31 @@ This design doesn't adhere to SRP
 
 
 In doing so, BENEFITS OF OCP
+
  a) Inheritance through interface helps achieve loose coupling between classes implementing that interface.
+ 
  b) To add a new feature, we don’t change existing code so we don’t break existing features by introducing new bugs.
 
 Note: The one exception to the OCP rule is when fixing bugs in existing code. 
+
+
+DEMO: ABC corporation wants to create a login service for its e-commerce application. Initial use case requirement given by the company is given below:
+ 
+
+
+![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/7a50917a-e34d-44b7-89b3-eda89215b513)
+
+Based on the initial requirement you created a LoginService class to do the login activities of above two actors 
+
+![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/beb99b06-25d7-4e63-9110-852507b74135)
+
+Change Request: After some days ABC corporation comes up with a new request to add Customers also under the login process.
+
+*Refactored Design* :  new change without modifying the existing class
+
+![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/28d96441-e318-4ba8-a18f-149c41c58d19)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
    
