@@ -58,4 +58,9 @@ Change Request: After some days ABC corporation comes up with a new request to a
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3. *LISKOV SUBSTITUTION PRINCIPLE*
+
+4. *INTERFACE SEGREGATION PRINCIPLE*
+5. *DEPENDENCY INVERSION PRINCIPLE*
+6. 
+7. 
    
