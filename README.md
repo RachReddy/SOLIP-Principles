@@ -64,8 +64,7 @@ Change Request: After some days ABC corporation comes up with a new request to a
 
 4. *INTERFACE SEGREGATION PRINCIPLE*
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 
+
 5. *DEPENDENCY INVERSION PRINCIPLE*
 
    
