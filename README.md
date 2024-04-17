@@ -35,7 +35,7 @@ To fix our mess, we should implement a separate class that deals only with print
 
 2. *OPEN/CLOSED PRINCIPLE*
    
-   "Classes should be open for extension but closed for modification"
+   "Classes should be open for extension but closed for modification" or "It states that the software entities (classes or methods) should be open for extension but closed for modification."
 
 > Open for extension: It means that the module’s behavior can be extended. When the requirements of the application change, you can extend the module with new behaviors that adapt to those changes.
 
