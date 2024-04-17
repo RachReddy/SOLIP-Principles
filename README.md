@@ -87,7 +87,7 @@ DEMO 3: Usecase: if we need to add another company (like big basket) we need to 
 
 ![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/2221cd87-0f67-4c09-bfaf-e73512ebbaf7)
 
-Solution1 (PREFFERED) : Make Merchent as a interface and make Flipkart, Amazon, Bigbasket as subclasses when implement this interface and then add its own shipping rate percent to its Calculateshippingcost method.
+Solution1 (PREFFERED) : Make Merchent as a interface and make Flipkart, Amazon, Bigbasket as subclasses when implement this interface and then add its own shipping rate percent to each of its Calculateshippingcost method.
 
 Solution2: By creating inheritance, we make it easy to modify by adding a derived class without touching the existing class
 ![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/db0e30fc-668d-44de-bcc8-fa2820759497)
@@ -97,6 +97,12 @@ Solution2: By creating inheritance, we make it easy to modify by adding a derive
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3. *LISKOV SUBSTITUTION PRINCIPLE*
+
+“You should be able to use any derived class instead of a parent class and have it behave in the same manner without modification.”
+
+>  When you have a parent class and a child class in your project, the child class can be a substitution of the parent class without changing the correctness of the application. 
+> In simple words it says “Code designed to work with a Parent must continue to work when provided with it's Children instead.” (if class B is a subtype of class A, we should be able to replace A with B without disrupting the behavior of our program.)
+> 
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
