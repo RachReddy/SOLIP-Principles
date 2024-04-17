@@ -17,9 +17,9 @@ This design doesn't adhere to SRP
 
 ![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/6372ccda-7bbf-490c-a2bb-aaceb6ee5411)
 
+~~~~~
 
-
-DEMO1: We have a class to represent a simple book
+DEMO2: We have a class to represent a simple book
 ![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/e4dd9b12-ab2d-4068-87c7-94cb944a613f)
 
 Let’s now add a couple of methods to query the text:
