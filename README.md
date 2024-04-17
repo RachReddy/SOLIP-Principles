@@ -82,6 +82,15 @@ the main method will be same in both the conditions
 ![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/27494d64-08c4-4df0-ac81-e5e8afc54623)
 
 
+DEMO 3: Usecase: if we need to add another company (like big basket) we need to modify the existing code in the switch statement
+
+
+![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/2221cd87-0f67-4c09-bfaf-e73512ebbaf7)
+
+Solution1 (PREFFERED) : Make Merchent as a interface and make Flipkart, Amazon, Bigbasket as subclasses when implement this interface and then add its own shipping rate percent to its Calculateshippingcost method.
+
+Solution2: By creating inheritance, we make it easy to modify by adding a derived class without touching the existing class
+![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/db0e30fc-668d-44de-bcc8-fa2820759497)
 
 
 
