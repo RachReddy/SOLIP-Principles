@@ -78,6 +78,7 @@ DEMO 2: Simple example with & without adheering to OCP
 ![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/5151dbc7-59af-435a-bded-7aadde421e2e) With OCP implemented
 
 the main method will be same in both the conditions 
+
 ![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/27494d64-08c4-4df0-ac81-e5e8afc54623)
 
 
