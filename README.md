@@ -5,7 +5,7 @@
 
 It's tempting to pack a class with a lot of functionality. However, the issue is that your class won't be conceptually cohesive, giving it several reasons to change. Reducing the number of reasons to modify a class is essential. If this job's specifications change, you only need to modify that specific class. This change is less likely to break the whole application since other classes continue to function as before. As a result, classes have become smaller, cleaner, and thus easier to maintain.
 
-DEMO: The Admin of an Billing Application wants to do four activities as shown by the Use Case Diagram: add invoice, delete invoice, send email of invoice to customers and perform error logging operations.
+DEMO1: The Admin of an Billing Application wants to do four activities as shown by the Use Case Diagram: add invoice, delete invoice, send email of invoice to customers and perform error logging operations.
 ![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/e6c23110-8101-465f-8d46-5a87046bb7e5)
 
 So initially the admin creates a class called Invoice and adds all the above four operations under the class as shown by the class diagram and the code.
@@ -17,6 +17,19 @@ This design doesn't adhere to SRP
 
 ![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/6372ccda-7bbf-490c-a2bb-aaceb6ee5411)
 
+
+
+DEMO1: We have a class to represent a simple book
+![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/e4dd9b12-ab2d-4068-87c7-94cb944a613f)
+
+Let’s now add a couple of methods to query the text:
+![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/dc96af14-e3c8-4c76-b903-2598f7ad2ca8)
+
+But what good is storing the information if we can’t output the text to our console and read it?
+![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/841dfc76-ac7c-4843-971c-0995cea11e45)
+
+To fix our mess, we should implement a separate class that deals only with printing our texts:
+![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/b6912044-81ba-4388-8bfc-59a512f8ed28)
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
