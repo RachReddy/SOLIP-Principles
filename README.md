@@ -70,6 +70,20 @@ Change Request: After some days ABC corporation comes up with a new request to a
 
 ![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/28d96441-e318-4ba8-a18f-149c41c58d19)
 
+
+DEMO 2: Simple example with & without adheering to OCP
+
+![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/7447fb52-6292-4d44-8d70-41f8276f1c67) Without OCP implemented
+
+![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/5151dbc7-59af-435a-bded-7aadde421e2e) With OCP implemented
+
+the main method will be same in both the conditions 
+![image](https://github.com/RachReddy/SOLIP-Principles/assets/94166047/27494d64-08c4-4df0-ac81-e5e8afc54623)
+
+
+
+
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3. *LISKOV SUBSTITUTION PRINCIPLE*
