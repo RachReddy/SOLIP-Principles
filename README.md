@@ -39,7 +39,7 @@ To fix our mess, we should implement a separate class that deals only with print
 
 > Open for extension: It means that the module’s behavior can be extended. When the requirements of the application change, you can extend the module with new behaviors that adapt to those changes.
 
-> Closed for modification: You shouldn't refactor and modify the existing source code of a module as it has already passed the unit testing, so changing it can affect other existing functionalities.
+> Closed for modification: You shouldn't refactor and modify the existing source code of a module as it has already passed the unit testing, so changing it can affect other existing functionalities. ( one exception to the rule is when fixing bugs in existing code.)
 
 
 In doing so, BENEFITS OF OCP
