@@ -3,7 +3,7 @@ Closed for modification : You shouldn't refactor and modify the existing code fo
 
 BENEFITS OF OPEN_CLOSED PRINCIPLE
 ----------------------------------------------------
-1. Encapsulation: This principle promotes encapsulation by encouraging the use of interfaces and abstract classes. This helps in hiding the internal details of a module or class, making it easier to understand and maintain.
+1. Abstraction : This principle promotes abstraction by encouraging the use of inheritance using interfaces.
 2. Flexibility and Extensibility
 3. Reduced Risk of Bugs
 4. To add a new feature, we don’t change existing code so we don’t break existing features by introducing new bugs.
